@@ -16,6 +16,7 @@ import FloorPlans from '../components/FloorPlans'
 import MasterLayout from '../components/MasterLayout'
 import Gallery from '../components/Gallary'
 import FloatingButtons from '../components/FloatingButtons'
+import LocationAdvantages from '../components/LocationAdvantages'
 
 const HomePage = () => {
   return (
@@ -23,6 +24,7 @@ const HomePage = () => {
       <Header />
       <PropertyPrices />
       <PropertyDetails />
+      <LocationAdvantages />
       <AmenitiesSection />
       <UnitLayouts />
       <FloorPlans />
